@@ -28,6 +28,9 @@ then
 elif [ "$description" = "light rain" ]
 then
 	description="Pluie légère"
+elif [ "$description" = "few clouds" ]
+then
+	description="Légèrement nuageux"
 fi
 
 #temp=`printf "%.*f\n" 0 $temp`
@@ -132,13 +135,15 @@ echo $description</string>
 	<key>FontSize</key>
 	<real>24</real>
 	<key>GeekletFrame</key>
-	<string>{{10.4296875, 337.01171875}, {150, 45}}</string>
+	<string>{{10, 337}, {245.1484375, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
 	<string>org.tynsoe.geeklet.shell</string>
 	<key>Name</key>
 	<string>Météo</string>
+	<key>RefreshInterval</key>
+	<integer>300</integer>
 	<key>SetLocale</key>
 	<true/>
 	<key>SuccessImage</key>
