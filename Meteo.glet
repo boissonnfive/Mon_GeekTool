@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>Command</key>
-	<string>#Smart Weather by enochou (mod boissonnfive)
+	<string>#! /bin/bash
+#Smart Weather by enochou (mod boissonnfive)
 
 #geolocation=`curl -s ipinfo.io`
 #coords=`echo $geolocation | python -c 'import json, sys; print json.load(sys.stdin)["loc"]'`
@@ -31,6 +32,9 @@ then
 elif [ "$description" = "few clouds" ]
 then
 	description="Légèrement nuageux"
+elif [ "$description" = "overcast clouds" ]
+then
+	description="Couvert"
 fi
 
 #temp=`printf "%.*f\n" 0 $temp`
