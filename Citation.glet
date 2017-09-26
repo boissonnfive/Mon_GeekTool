@@ -5,10 +5,24 @@
 	<key>Command</key>
 	<string>#! /bin/bash
 
-echo "« Hâtez-vous lentement, et sans perdre courage.\nVingt fois sur le métier, remettez votre ouvrage.\nPolissez-le sans cesse et le repolissez,\nAjoutez quelquefois, et souvent effacez. »"
 
+PROVERBE[0]="« Hâtez-vous lentement, et sans perdre courage.\nVingt fois sur le métier, remettez votre ouvrage.\nPolissez-le sans cesse et le repolissez,\nAjoutez quelquefois, et souvent effacez. »"
+PROVERBE[1]="« Il n'est pas nécessaire d'espérer pour entreprendre,\n ni de réussir pour persévérer. »"
+PROVERBE[2]="« C'est dans l'effort que l'on trouve la satisfaction,\n et non dans la réussite. Un plein effort est\n une pleine victoire. »\n Gandhi"
+PROVERBE[3]="« L'exemplarité n'est pas une façon d'influencer,\n c'est la seule. »\n Albert Schweitzer"
+PROVERBE[4]="« L'intolérance est une maladie contagieuse car\n elle contamine toujours ceux qui la combattent. »\n Raymon Aron"
+PROVERBE[5]="« Personne n'est capable de vous contrarier\n sans votre consentement. »\n Eleanor Roosevelt"
+PROVERBE[6]="« Là où croît le danger, croît ce qui sauve. »\n Rainer Maria Rilke"
+PROVERBE[7]="« Il est toujours trop tôt pour abandonner. »\n Norman Vincent Peale"
 
-#cat "/Users/bruno/Documents/GeekTool/Citation - Boileau.txt"</string>
+RANGE=8
+number=$RANDOM
+let "number %= $RANGE"
+#           ^^
+
+#echo "Random number less than $RANGE  ---  $number"
+echo "${PROVERBE[$number]}"
+</string>
 	<key>DisplayID</key>
 	<integer>69677504</integer>
 	<key>DropShadow</key>
@@ -107,13 +121,15 @@ echo "« Hâtez-vous lentement, et sans perdre courage.\nVingt fois sur le méti
 	<key>FontSize</key>
 	<real>36</real>
 	<key>GeekletFrame</key>
-	<string>{{4.80078125, 26.22265625}, {721, 189}}</string>
+	<string>{{4, 27}, {777.33984375, 192.70703125}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
 	<string>org.tynsoe.geeklet.shell</string>
 	<key>Name</key>
 	<string>Citation</string>
+	<key>RefreshInterval</key>
+	<integer>0</integer>
 	<key>SetLocale</key>
 	<true/>
 	<key>SuccessImage</key>
