@@ -111,13 +111,15 @@ sed -nE "/$DATE/{n;n;n;n;n;s/SUMMARY:(.*)/\1/p;}" &lt; ${FICHIER_DES_FETES}
 	<key>FontSize</key>
 	<real>14</real>
 	<key>GeekletFrame</key>
-	<string>{{8.21484375, 455.86328125}, {300, 150}}</string>
+	<string>{{5.453125, 453.16796875}, {274, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
 	<string>org.tynsoe.geeklet.shell</string>
 	<key>Name</key>
 	<string>Fete du jour</string>
+	<key>RefreshInterval</key>
+	<integer>3600</integer>
 	<key>SetLocale</key>
 	<true/>
 	<key>SuccessImage</key>

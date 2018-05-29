@@ -10,7 +10,7 @@
 	<key>Command</key>
 	<string>date +%A</string>
 	<key>DisplayID</key>
-	<integer>69677504</integer>
+	<integer>685389121</integer>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -45,7 +45,7 @@
 	<key>FontSize</key>
 	<real>24</real>
 	<key>GeekletFrame</key>
-	<string>{{65, 384}, {127.6640625, 45}}</string>
+	<string>{{65.29296875, 384}, {128, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
@@ -53,7 +53,7 @@
 	<key>Name</key>
 	<string>Day</string>
 	<key>RefreshInterval</key>
-	<integer>0</integer>
+	<integer>3600</integer>
 	<key>RelativePosition</key>
 	<integer>1</integer>
 	<key>RightToLeft</key>

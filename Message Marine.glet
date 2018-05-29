@@ -5,7 +5,7 @@
 	<key>Command</key>
 	<string>echo "Chaque jour, \ndis à ta femme que tu l'aimes. ❤️"</string>
 	<key>DisplayID</key>
-	<integer>69677504</integer>
+	<integer>685389121</integer>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -102,7 +102,7 @@
 	<key>FontSize</key>
 	<real>18</real>
 	<key>GeekletFrame</key>
-	<string>{{6.8046875, 458.3203125}, {253, 50}}</string>
+	<string>{{8.43359375, 492.66796875}, {253, 50}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

@@ -10,7 +10,7 @@ echo UPTIME: `uptime \
 | sed -E 's/^.*up[ ]+((([0-9]+) day[s]?,[ ]+)?)([0-9]?[0-9]):([0-9]+[0-9]).*$/\3j \4h \5mn/'`
 </string>
 	<key>DisplayID</key>
-	<integer>69677504</integer>
+	<integer>685389121</integer>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -114,6 +114,8 @@ echo UPTIME: `uptime \
 	<string>org.tynsoe.geeklet.shell</string>
 	<key>Name</key>
 	<string>Uptime</string>
+	<key>RefreshInterval</key>
+	<integer>60</integer>
 	<key>SetLocale</key>
 	<true/>
 	<key>SuccessImage</key>

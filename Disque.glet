@@ -38,7 +38,7 @@ fi
 echo "Macintosh HD ($capacity%)"
 exit $RET</string>
 	<key>DisplayID</key>
-	<integer>69677504</integer>
+	<integer>685389121</integer>
 	<key>DisplayStatusImage</key>
 	<false/>
 	<key>DropShadow</key>
@@ -144,6 +144,8 @@ exit $RET</string>
 	<string>org.tynsoe.geeklet.shell</string>
 	<key>Name</key>
 	<string>Disque</string>
+	<key>RefreshInterval</key>
+	<integer>3600</integer>
 	<key>SetLocale</key>
 	<true/>
 	<key>StatusImagePosition</key>

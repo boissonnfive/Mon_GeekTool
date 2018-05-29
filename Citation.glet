@@ -14,8 +14,9 @@ PROVERBE[4]="« L'intolérance est une maladie contagieuse car\n elle contamine 
 PROVERBE[5]="« Personne n'est capable de vous contrarier\n sans votre consentement. »\n Eleanor Roosevelt"
 PROVERBE[6]="« Là où croît le danger, croît ce qui sauve. »\n Rainer Maria Rilke"
 PROVERBE[7]="« Il est toujours trop tôt pour abandonner. »\n Norman Vincent Peale"
+PROVERBE[8]="« L'essentiel n'est pas d'avoir vaincu,\nmais de s'être bien battu. »\n Pierre de Coubertin"
 
-RANGE=8
+RANGE=9
 number=$RANDOM
 let "number %= $RANGE"
 #           ^^
@@ -24,7 +25,7 @@ let "number %= $RANGE"
 echo "${PROVERBE[$number]}"
 </string>
 	<key>DisplayID</key>
-	<integer>69677504</integer>
+	<integer>685389121</integer>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>

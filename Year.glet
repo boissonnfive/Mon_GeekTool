@@ -5,7 +5,7 @@
 	<key>Command</key>
 	<string>date "+%Y"</string>
 	<key>DisplayID</key>
-	<integer>69677504</integer>
+	<integer>685389121</integer>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -48,7 +48,7 @@
 	<key>Name</key>
 	<string>Year</string>
 	<key>RefreshInterval</key>
-	<integer>0</integer>
+	<integer>3600</integer>
 	<key>SetLocale</key>
 	<true/>
 	<key>SuccessImage</key>
