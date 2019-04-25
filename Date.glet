@@ -38,9 +38,9 @@
 	<key>FontFamily</key>
 	<string>HelveticaNeue-CondensedBlack</string>
 	<key>FontSize</key>
-	<real>48</real>
+	<real>77</real>
 	<key>GeekletFrame</key>
-	<string>{{5.44140625, 376}, {95, 56}}</string>
+	<string>{{4.80078125, 264.53515625}, {97, 77}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

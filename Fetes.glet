@@ -111,7 +111,7 @@ sed -nE "/$DATE/{n;n;n;n;n;s/SUMMARY:(.*)/\1/p;}" &lt; ${FICHIER_DES_FETES}
 	<key>FontSize</key>
 	<real>14</real>
 	<key>GeekletFrame</key>
-	<string>{{5.453125, 453.16796875}, {274, 45}}</string>
+	<string>{{7.54296875, 342.51171875}, {274, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

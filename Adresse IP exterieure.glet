@@ -101,11 +101,11 @@ echo "$ip"</string>
 	ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23//w==
 	</data>
 	<key>FontFamily</key>
-	<string>HelveticaNeue-CondensedBlack</string>
+	<string>HelveticaNeue-CondensedBold</string>
 	<key>FontSize</key>
-	<real>12</real>
+	<real>13</real>
 	<key>GeekletFrame</key>
-	<string>{{8, 242}, {144.9609375, 46.21484375}}</string>
+	<string>{{10.97265625, 524.3984375}, {145, 47}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

@@ -102,7 +102,7 @@
 	<key>FontSize</key>
 	<real>18</real>
 	<key>GeekletFrame</key>
-	<string>{{90.91796875, 299}, {95, 45}}</string>
+	<string>{{55.19921875, 388.515625}, {95, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

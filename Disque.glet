@@ -137,7 +137,7 @@ exit $RET</string>
 	<key>FontSize</key>
 	<real>13</real>
 	<key>GeekletFrame</key>
-	<string>{{8, 262.48828125}, {179, 45}}</string>
+	<string>{{9.4453125, 490.96484375}, {179, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

@@ -98,11 +98,11 @@
 	ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23//w==
 	</data>
 	<key>FontFamily</key>
-	<string>Calibri</string>
+	<string>HelveticaNeue-Medium</string>
 	<key>FontSize</key>
-	<real>18</real>
+	<real>13</real>
 	<key>GeekletFrame</key>
-	<string>{{8.43359375, 492.66796875}, {253, 50}}</string>
+	<string>{{11.1015625, 566.3125}, {228, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

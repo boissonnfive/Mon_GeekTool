@@ -98,11 +98,11 @@
 	ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23//w==
 	</data>
 	<key>FontFamily</key>
-	<string>HelveticaNeue-CondensedBlack</string>
+	<string>HelveticaNeue-CondensedBold</string>
 	<key>FontSize</key>
-	<real>12</real>
+	<real>13</real>
 	<key>GeekletFrame</key>
-	<string>{{8.29296875, 225}, {116, 45}}</string>
+	<string>{{9.96484375, 506.71875}, {116, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

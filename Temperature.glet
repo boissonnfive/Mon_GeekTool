@@ -219,7 +219,7 @@ exit
 	<key>ForceCR</key>
 	<true/>
 	<key>GeekletFrame</key>
-	<string>{{37.3828125, 290.01953125}, {95, 49}}</string>
+	<string>{{3.69921875, 378.68359375}, {95, 49}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

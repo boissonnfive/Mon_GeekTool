@@ -107,7 +107,7 @@ echo UPTIME: `uptime \
 	<key>FontSize</key>
 	<real>13</real>
 	<key>GeekletFrame</key>
-	<string>{{8.43359375, 277.5546875}, {156, 45}}</string>
+	<string>{{10.65234375, 473.29296875}, {156, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

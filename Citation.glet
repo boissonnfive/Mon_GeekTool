@@ -15,8 +15,9 @@ PROVERBE[5]="« Personne n'est capable de vous contrarier\n sans votre consentem
 PROVERBE[6]="« Là où croît le danger, croît ce qui sauve. »\n Rainer Maria Rilke"
 PROVERBE[7]="« Il est toujours trop tôt pour abandonner. »\n Norman Vincent Peale"
 PROVERBE[8]="« L'essentiel n'est pas d'avoir vaincu,\nmais de s'être bien battu. »\n Pierre de Coubertin"
+PROVERBE[9]="« Tout homme qui dirige, qui fait quelque chose, \na contre lui ceux qui voudraient faire la même chose,\nceux qui font précisément le contraire, et surtout \nla grande armée des gens d’autant plus sévères qu’ils\nne font rien du tout. »\n Jules Clarétie"
 
-RANGE=9
+RANGE=10
 number=$RANDOM
 let "number %= $RANGE"
 #           ^^
@@ -122,7 +123,7 @@ echo "${PROVERBE[$number]}"
 	<key>FontSize</key>
 	<real>36</real>
 	<key>GeekletFrame</key>
-	<string>{{4, 27}, {777.33984375, 192.70703125}}</string>
+	<string>{{4, 27}, {865.39453125, 229.16796875}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

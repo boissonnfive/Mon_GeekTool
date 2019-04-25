@@ -104,6 +104,10 @@ description_meteo()
 		description="Brumeux"
 	elif [ "$description" = "fog" ];then
 		description="Brouillard"
+	elif [ "$description" = "thunderstorm" ];then
+		description="Orages"
+	elif [ "$description" = "heavy intensity rain" ];then
+		description="Fortes pluies"
 	fi
 	echo $description
 }
@@ -218,7 +222,7 @@ exit
 	<key>FontSize</key>
 	<real>24</real>
 	<key>GeekletFrame</key>
-	<string>{{10, 337}, {245.1484375, 45}}</string>
+	<string>{{7.88671875, 425.27734375}, {246, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
